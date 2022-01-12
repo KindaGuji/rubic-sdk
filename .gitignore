@@ -5,5 +5,5 @@
 /.data/
 /coverage/
 /__tests__/env.js
-/lib/
+#/lib/
 /cache/
