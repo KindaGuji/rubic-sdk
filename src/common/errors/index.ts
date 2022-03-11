@@ -11,6 +11,8 @@ export { WalletNotConnectedError } from './swap/wallet-not-connected.error';
 export { WrongNetworkError } from './swap/wrong-network.error';
 export { WrongChainIdError } from './provider/wrong-chain-id.error';
 export { CrossChainIsUnavailableError } from './cross-chain/cross-chain-is-unavailable.error';
+export { CrossChainMaxAmountError } from './cross-chain/cross-chain-max-amount-error';
+export { CrossChainMinAmountError } from './cross-chain/cross-chain-min-amount-error';
 export { InsufficientFundsGasPriceValueError } from './cross-chain/insufficient-funds-gas-price-value.error';
 export { MaxGasPriceOverflowError } from './cross-chain/max-gas-price-overflow.error';
 export { Web3Error } from './blockchain/web3.error';
